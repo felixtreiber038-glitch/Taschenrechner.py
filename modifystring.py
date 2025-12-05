@@ -1,5 +1,5 @@
-x = ("     du bist ein dummer hugo!      ")
-y = ("DU BIST EIN DUMMER HUGO!")
+x = "     du bist ein dummer hugo!      "
+y = "DU BIST EIN DUMMER HUGO!"
 
 print(x.upper())
 print(y.lower())
