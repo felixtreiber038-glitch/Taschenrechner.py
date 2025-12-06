@@ -34,13 +34,13 @@ while repeat !="n" and repeat !="N":
     number_1.strip()
     number_2.strip()
     if operator == "+":
-        print(int(number_1) + int(number_2))
+        print(float(number_1) + float(number_2))
     elif operator == "-":
-        print(int(number_1) - int(number_2))
+        print(float(number_1) - float(number_2))
     elif operator == "*":
-        print(int(number_1) * int(number_2))
+        print(float(number_1) * float(number_2))
     elif operator == "/":
-        print(int(number_1) / int(number_2))
+        print(float(number_1) / float(number_2))
 
     print("")
     repeat = input("Wiederholen(Y/n):")
