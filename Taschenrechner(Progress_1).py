@@ -1,9 +1,9 @@
 repeat = " "
 while repeat !="n" and repeat !="N":
-    input("Taschenrechner")
+    print ("Calculator")
     print("")
 
-    input_value = input("Was willst du rechnen:")
+    input_value = input("What do you want to calculate: ")
     print(" ")
     operator = ""
     numbers_to_calculate = ""
@@ -43,7 +43,7 @@ while repeat !="n" and repeat !="N":
         print(float(number_1) / float(number_2))
 
     print("")
-    repeat = input("Wiederholen(Y/n):")
+    repeat = input("repeat(Y/n):")
 
 
 
